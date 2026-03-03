@@ -16,4 +16,12 @@ public class Car {
             return false;
         }
     }
+
+    public double getCurrentFuel() {
+        return fuel;
+    }
+
+    public double getMpg() {
+        return milesPerGallon;
+    }
 }
